@@ -1,0 +1,125 @@
+
+.about-poster {
+  background-image: url(images/our-story.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  height: 30vh;
+  margin-bottom: 10vh;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  width: 80vw;
+  /* margin-top: 30vh; */
+  left: 10vw;
+}
+
+.grid-item {
+  background-color: #e0f7e9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #2e6c3d;
+}
+
+.grid-item p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #646770;
+}
+
+.card {
+  position: relative;
+  width: 80vw;
+  left: 10vw;
+  margin-top: 10vh;
+  background-color: #e0f7e9;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5vh;
+}
+
+.card-header {
+  background-color: #11532c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.card-header h1 {
+  color: #f9f9f9ee;
+}
+
+.card-body {
+  padding: 20px;
+  color: #666;
+}
+
+.card-body p {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.card-footer {
+  background-color: #e0f7e9;
+  padding: 20px;
+  border-top: 1px solid #dee2e6;
+  /* text-align: center; */
+}
+
+.card-footer h2 {
+  color: #11532c;
+  font-size: 1.5rem;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card-footer p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.global-reach {
+  background-image: url(images/Global-Reach-Map.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  margin-bottom: 5vh;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .grid-item {
+    padding: 15px;
+  }
+
+  .grid-item h2 {
+    font-size: 1.2em;
+  }
+
+  .grid-item p {
+    font-size: 0.9em;
+  }
+}
