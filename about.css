@@ -1,4 +1,3 @@
-
 .about-poster {
   background-image: url(images/our-story.png);
   background-repeat: no-repeat;
@@ -121,5 +120,15 @@
 
   .grid-item p {
     font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-poster {
+    background-size: cover;
+  }
+
+  .grid-container {
+    left: 5vw;
   }
 }

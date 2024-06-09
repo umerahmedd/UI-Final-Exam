@@ -127,3 +127,27 @@
     background-color: #16a430;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .water-poster{
+      background-image: url(images/water-mobile.png);
+    }
+
+    .bottle {
+      width: 100%;
+    }
+
+    .container {
+      height: 240vh;
+    }
+
+    .subscribe-form {
+      width: 80vw;
+      left: 5vw;
+    }
+
+    button {
+      width: 40vw;
+    }
+  }
+

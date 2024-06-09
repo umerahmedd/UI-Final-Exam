@@ -39,7 +39,7 @@ body {
 }
 
 .nav-item {
-  transform: translateY(50%);
+
   position: relative;
   display: inline-block;
   top: 50%;
@@ -141,12 +141,11 @@ a:hover {
 
 .products-grid .product-placeholder {
   background-color: #ddd;
-  height: 200px; /* Placeholder height */
   border-radius: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 36vw;
+  height: 75vh;
 }
 
 .third-page-container{
@@ -222,6 +221,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 200vh;
 }
 
 .block-container{
@@ -419,5 +419,58 @@ a:hover {
 @media screen and (max-width: 768px) {
   .footer {
     display: none;
+  }
+
+  .search{
+    display: none;
+  }
+
+  .logo {
+   top: 10%; 
+  }
+
+  #logo-image{
+    width: 12vw;
+  }
+
+  a{
+    font-size: 0.85rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .nav-container{
+    right: 0;
+    width: 80%;
+  }
+
+  .products-grid .product-placeholder {
+    height: 50vh;
+  }
+
+  .third-page {
+    background-size: cover;
+    background-position: left;
+  }
+
+  .water-button{
+    width: 40vw;
+  }
+
+  .block-item{
+    width: 70vw;
+  }
+
+  .block-page-container{
+    height: 375vh;
+  }
+
+  .about-us-pic{
+    background-size: cover;
+  }
+
+  .buy-now-button{
+    width: 50vw;
+    top: 75vh;
   }
 }
