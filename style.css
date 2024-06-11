@@ -14,7 +14,7 @@ body {
   height: 8vh;
   width: 100%;
   top: 0%;
-  background-color: #ffffff;
+  background-color: #000000;
   z-index: 1;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 #logo-image {
-  width: 4.5vw;
+  width: 10vw;
 }
 
 .nav-container {
@@ -48,7 +48,7 @@ body {
 }
 
 a {
-  color: #11532d;
+  color: #ffffff;
   font-size: 1rem;
   text-decoration: none;
   font-weight: 600;
@@ -62,8 +62,8 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
-  background-color: #11532d;
+  color: #000000;
+  background-color: #ffffff;
   transition: all 0.4s ease;
 }
 
@@ -72,7 +72,7 @@ a:hover {
   right: 5vw;
   height: 4vh;
   width: 15vw;
-  top: 1.5vh;
+  top: 2vh;
   border-radius: 5px;
   border: 1px solid #666;
 }
@@ -86,6 +86,8 @@ a:hover {
   left: 3%;
   border-radius: 5px;
   border: none;
+  background-color: transparent;
+  
 }
 
 .search-button {
@@ -93,13 +95,13 @@ a:hover {
   position: absolute;
   width: 10%;
   height: 80%;
-  top: 15%;
+  top: 5%;
   right: 3%;
   cursor: pointer;
 }
 
 .first-page {
-  background-image: url(images/main-page.png);
+  background-image: url(images/main-page.avif);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -118,7 +120,7 @@ a:hover {
   text-align: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  color: #1c6758;
+  color: #000000;
   width: 78vw;
   position: relative;
   margin-bottom: 10vh;
@@ -149,10 +151,12 @@ a:hover {
 }
 
 .third-page-container{
-  background-image: url(images/hydration-background.png);
+  background-image: url(images/third-page-background.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  height: 90vh;
+  margin-bottom: 10vh;
 }
 
 .third-heading {
@@ -160,7 +164,7 @@ a:hover {
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
-  color: #11532d;
+  color: #000000;
   font-weight: 700;
   text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
 }
@@ -179,19 +183,45 @@ a:hover {
   box-shadow: 2px 3px 2px 2px rgba(0.3, 0, 0, 0.3);
 }
 
+.third-page-heading{
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  left: 15vw;
+  top: 20vh;
+  width: 50%;
+}
+
+.third-page-subheading{
+  font-size: 4.5rem;
+  color: white;
+  position: relative;
+  left: 15vw;
+  top: 20vh;
+  font-weight: 700;
+  width: 60%;
+}
+
+.third-page-paragraph{
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  left: 15vw;
+  top: 23vh;
+  width: 50%;
+}
+
 .water-button-container{
   position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10vh;
+  width: 50%;
+  top: 30vh;
+  left: 15vw;
 }
 
 .water-button{
   position: relative;
-  width: 20vw;
-  height: 8vh;
+  width: 15vw;
+  height: 7vh;
   background-color: #26a5ee;
   border-radius: 10px;
   cursor: pointer;
@@ -221,7 +251,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 200vh;
+  height: 130vh;
 }
 
 .block-container{
@@ -247,7 +277,7 @@ a:hover {
   position: relative;
   width: 100%;
   height: 70%;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -255,27 +285,27 @@ a:hover {
 }
 
 .block-item:nth-child(1) .block-image {
-  background-image: url(images/1.png);
+  background-image: url(images/1.webp);
 }
 
 .block-item:nth-child(2) .block-image {
-  background-image: url(images/2.png);
+  background-image: url(images/2.webp);
 }
 
 .block-item:nth-child(3) .block-image {
-  background-image: url(images/3.png);
+  background-image: url(images/3.webp);
 }
 
 .block-item:nth-child(4) .block-image {
-  background-image: url(images/4.png);
+  background-image: url(images/4.webp);
 }
 
 .block-item:nth-child(5) .block-image {
-  background-image: url(images/5.png);
+  background-image: url(images/5.webp);
 }
 
 .block-item:nth-child(6) .block-image {
-  background-image: url(images/7.png);
+  background-image: url(images/6.webp);
 }
 
 .block-button{
@@ -307,17 +337,19 @@ a:hover {
   position: absolute;
   width: 100%;
   height: 10%;
+  font-size: 1.25rem;
 }
 
 
 
 .about-us-pic {
-  background-image: url(images/about-us-picture.png);
+  background-image: url(images/best-seller.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   position: relative;
   height: 90vh;
+  margin-bottom: 5vh;
 }
 
 .buy-now-button{

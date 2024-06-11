@@ -28,7 +28,7 @@
 
 .contact-form h2,
 .contact-info h2 {
-  color: #2e7d32;
+  color: #000000;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
@@ -70,14 +70,14 @@
   margin: 10vh auto 0;
   grid-column: span 2;
   padding: 20px;
-  background-color: #e2f8ea;
+  background-color: #f5f8f9;
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin-bottom: 10vh;
 }
 
 .call-email-section h2 {
-  color: #2e7d32;
+  color: #000000;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
@@ -89,7 +89,7 @@
 }
 
 .call-email-section a {
-  color: #2e7d32;
+  color: #000000;
   text-decoration: none;
 }
 
